@@ -14,4 +14,5 @@ command = "pnpm build"
 package = "@netlify/plugin-nextjs"
 
 [template.environment]
-NEXTAUTH_SECRET = "Enter your NEXTAUTH_SECRET here for the production environment."
+NEXTAUTH_SECRET = "Your NEXTAUTH_SECRET here for the production."
+PNPM_FLAGS = "--shamefully-hoist"
