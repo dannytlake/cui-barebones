@@ -15,4 +15,3 @@ package = "@netlify/plugin-nextjs"
 
 [template.environment]
 NEXTAUTH_SECRET = "Your NEXTAUTH_SECRET here for the production."
-PNPM_FLAGS = "--shamefully-hoist"
